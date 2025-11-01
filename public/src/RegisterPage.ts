@@ -3,6 +3,8 @@ import {test,page} from '@playwright/test'
 
 export default class default RegisterPage{
 
+readonly page:Page
+
     firstName : String;
     lastName : String;
     userName : String;

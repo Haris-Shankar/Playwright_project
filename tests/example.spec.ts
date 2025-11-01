@@ -22,11 +22,13 @@ test('checking registration with details ', async ({ page }) => {
 }
   catch(error){
     console.log("Unexcepted Error Occured");
-    throw error
+    throw error 3
   }
 
 
  }
 );
+
+
  
 
